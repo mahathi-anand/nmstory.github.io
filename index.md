@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, we are Mahathi and Neil'
+landing-title: 'We are Getting Married!'
 description: null
 image: null
 author: null
