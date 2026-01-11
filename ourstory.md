@@ -14,12 +14,6 @@ As time passed, we bonded over food, boardgames, and nerdy conversations. We lea
 
 We are looking forward to start our life together! Reel yourselves in for a fun, inter-cultural wedding in December 2026! We are so excited to celebrate this new chapter with you - both in India and Germany!
 
-<i>
-Alles begann im August 2023, in einem Restaurant auf dem Campus der Universität und unserem geinsamen Arbeitsplatz. Es entstand eine bunte Mischung, als eine Inderin und ein Deutscher zusammensaßen und sich in englischer Sprache über griechischem Essen unterhielten. Nach einem ungezwungenen Dinner mit wunderschönen Gesprächen haben die Funken geschlagen und wir wussten – Das ist etwas Besonderes!
-</i>
-<i>
-Mit der Zeit verband uns die Liebe zum Essen, Brettspielen und nerdigen Unterhaltungen. Wir haben gelernt die Unterschiede unserer Kulturen zu lieben, als wir die indische und deutsche Küche, Festivals und deren Werte genossen. Langsam aber sicher haben wir uns verliebt! Zwei Jahre voller Dates, Reisen und das Kennenlernen unserer Familien machte uns zu unserem gegenseitiger Komfort und unserem Zuhause. Viele Abenteuer und Erfahrungen haben uns in den November 2025 gebracht, sowie zu unserer Verlobung.
-</i>
-<i>
-Wir freuen uns darauf, unser gemeinsames Leben zu starten! Macht euch bereit für eine lustige und interkulturelle Hochzeit im Dezember 2026! Wir freuen uns mit euch dieses neue Kapitel zu feiern – In Indien und Deutschland!
-</i>
+<i>Alles begann im August 2023, in einem Restaurant auf dem Campus der Universität und unserem geinsamen Arbeitsplatz. Es entstand eine bunte Mischung, als eine Inderin und ein Deutscher zusammensaßen und sich in englischer Sprache über griechischem Essen unterhielten. Nach einem ungezwungenen Dinner mit wunderschönen Gesprächen haben die Funken geschlagen und wir wussten – Das ist etwas Besonderes!</i>
+<i>Mit der Zeit verband uns die Liebe zum Essen, Brettspielen und nerdigen Unterhaltungen. Wir haben gelernt die Unterschiede unserer Kulturen zu lieben, als wir die indische und deutsche Küche, Festivals und deren Werte genossen. Langsam aber sicher haben wir uns verliebt! Zwei Jahre voller Dates, Reisen und das Kennenlernen unserer Familien machte uns zu unserem gegenseitiger Komfort und unserem Zuhause. Viele Abenteuer und Erfahrungen haben uns in den November 2025 gebracht, sowie zu unserer Verlobung.</i>
+<i>Wir freuen uns darauf, unser gemeinsames Leben zu starten! Macht euch bereit für eine lustige und interkulturelle Hochzeit im Dezember 2026! Wir freuen uns mit euch dieses neue Kapitel zu feiern – In Indien und Deutschland!</i>
