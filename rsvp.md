@@ -29,6 +29,8 @@ show-tile: true
             --green:       #27AE60;
         }
 
+        
+        
         /* ── Tabs ─────────────────────────────────────────────────── */
         .tabs {
             display: flex;
@@ -374,16 +376,16 @@ show-tile: true
     <p class="hero-sub"></p>
     <h1>Please RSVP</h1>
     <p>Kindly confirm your attendance and let us know a few details so we can make the day perfect for everyone.</p>
+    <p<a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a></p>
+    <p>Dates: 10th and 11th December, 2026</p>
+    <p>Note that accommodations for the wedding dates are included. </p>
+    <p>Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
+    <p>Other details will follow soon. Stay tuned for more updates in the website. </p> 
+
 </div>
 
 <!-- ═══════════════════════════════ MAIN ═══════════════════════════════════ -->
 <div class="container">
-
-    <!-- Tab switcher -->
-    <div class="tabs" role="tablist">
-        <button class="tab-btn active" id="tab-intl"  onclick="switchTab('international')" role="tab">✈️ International Guest</button>
-        <button class="tab-btn"        id="tab-local" onclick="switchTab('local')"         role="tab">🏡 Local Guest</button>
-    </div>
 
     <!-- RSVP Form -->
     <div class="form-card" id="form-card">
