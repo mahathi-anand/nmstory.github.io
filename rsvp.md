@@ -18,8 +18,8 @@ show-tile: true
 
         :root {
             --gold:        #161a34;
-            --gold-light:  #161a34;
-            --gold-pale:   #C0392B;
+            --gold-light:  #C0392B;
+            --gold-pale:   #242943;
             --bg:          #242943;
             --card:        #242943;
             --text:        #ffffff;
