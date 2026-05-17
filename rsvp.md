@@ -19,7 +19,7 @@ show-tile: true
         :root {
             --gold:        #161a34;
             --gold-light:  #161a34;
-            --gold-pale:   #ffffff;
+            --gold-pale:   #C0392B;
             --bg:          #242943;
             --card:        #242943;
             --text:        #ffffff;
@@ -376,10 +376,10 @@ show-tile: true
     <p class="hero-sub"></p>
     <h1>Please RSVP</h1>
     <p>Kindly confirm your attendance and let us know a few details so we can make the day perfect for everyone.</p>
-    <p<a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a></p>
-    <p>Dates: 10th and 11th December, 2026</p>
-    <p>Note that accommodations for the wedding dates are included. </p>
-    <p>Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
+    <p>Wedding Venue: <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a><br><br>
+     Dates: 10th and 11th December, 2026</p>
+    <p>Note that accommodations for the wedding dates are included. <br><br>
+    Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
     <p>Other details will follow soon. Stay tuned for more updates in the website. </p> 
 
 </div>
