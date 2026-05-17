@@ -112,7 +112,7 @@ show-tile: true
         }
         input:focus, textarea:focus {
             border-color: var(--gold);
-            background: #fff;
+            background: #000000;
         }
         input.invalid, textarea.invalid {
             border-color: var(--red);
