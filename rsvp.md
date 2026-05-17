@@ -17,11 +17,11 @@ show-tile: true
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
-            --gold:        #ffffff;
-            --gold-light:  #ffffff;
+            --gold:        #8ea9e8;
+            --gold-light:  #8ea9e8;
             --gold-pale:   #F5EDD8;
-            --bg:          #0047ab;
-            --card:        #0047ab;
+            --bg:          #242943;
+            --card:        #242943;
             --text:        #ffffff;
             --muted:       #666666;
             --border:      #E6DCC8;
