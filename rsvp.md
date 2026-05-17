@@ -17,8 +17,8 @@ show-tile: true
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
-            --gold:        #161a34;
-            --gold-light:  #C0392B;
+            --gold:        #C0392B;
+            --gold-light:  #161a34;
             --gold-pale:   #242943;
             --bg:          #242943;
             --card:        #242943;
