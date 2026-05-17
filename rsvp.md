@@ -1,14 +1,13 @@
 ---
 layout: post
-title: RSVP <br> <i>Unsere Geschichte</i>
-description: How we met and where we're going <br> <i>Unser Kennenlernen und wohin es für uns geht</i>
+title: RSVP <br>
+description: <i>You are invited/Du bist eingeladen</i>
 image: assets/images/collage.png
 nav-menu: true
 permalink: /rsvp/
 show-tile: true
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -372,76 +371,13 @@ show-tile: true
 
 <!-- ═══════════════════════════════ HERO ═══════════════════════════════════ -->
 <div class="hero">
-    <p class="hero-sub">You are invited</p>
+    <p class="hero-sub"></p>
     <h1>Please RSVP</h1>
     <p>Kindly confirm your attendance and let us know a few details so we can make the day perfect for everyone.</p>
 </div>
 
 <!-- ═══════════════════════════════ MAIN ═══════════════════════════════════ -->
 <div class="container">
-
-    <!--
-    ┌──────────────────────────────────────────────────────────────────────────┐
-    │  SETUP — Google Sheets backend (100% free, no subscription needed)       │
-    │                                                                          │
-    │  Step 1 — Create the spreadsheet                                         │
-    │    a. Go to https://sheets.google.com and create a new blank sheet.      │
-    │    b. Name it anything (e.g. "Event RSVPs").                             │
-    │                                                                          │
-    │  Step 2 — Add the Apps Script                                            │
-    │    a. In the sheet: Extensions → Apps Script.                            │
-    │    b. Delete the placeholder code and paste this entire block:           │
-    │                                                                          │
-    │  ── paste from here ────────────────────────────────────────────────── ──│
-    │  function doPost(e) {                                                    │
-    │    const ss = SpreadsheetApp.getActiveSpreadsheet();                     │
-    │    let sheet = ss.getSheetByName('RSVPs');                               │
-    │    if (!sheet) {                                                         │
-    │      sheet = ss.insertSheet('RSVPs');                                    │
-    │      sheet.appendRow([                                                   │
-    │        'Submitted At','Guest Type','Name','Email','Mobile',              │
-    │        'Additional Guests','Children','Dietary / Allergies',             │
-    │        'WhatsApp Consent'                                                │
-    │      ]);                                                                 │
-    │      sheet.getRange(1,1,1,9).setFontWeight('bold');                      │
-    │    }                                                                     │
-    │    const p = e.parameter;                                                │
-    │    sheet.appendRow([                                                     │
-    │      p.submitted_at || new Date().toLocaleString(),                      │
-    │      p.guest_type || '', p.name || '', p.email || '',                    │
-    │      p.mobile || '', p.additional_guests || '', p.children || '',        │
-    │      p.dietary || '', p.whatsapp_consent || ''                           │
-    │    ]);                                                                   │
-    │    return ContentService                                                 │
-    │      .createTextOutput(JSON.stringify({result:'success'}))               │
-    │      .setMimeType(ContentService.MimeType.JSON);                         │
-    │  }                                                                       │
-    │  ── paste to here ──────────────────────────────────────────────────── ──│
-    │                                                                          │
-    │  Step 3 — Deploy as Web App                                              │
-    │    a. Click Deploy → New deployment → Web app.                           │
-    │    b. Execute as: Me                                                     │
-    │    c. Who has access: Anyone                                             │
-    │    d. Click Deploy → copy the Web App URL.                               │
-    │                                                                          │
-    │  Step 4 — Wire it up here                                                │
-    │    a. Paste the URL as GOOGLE_SCRIPT_URL in the <script> section below.  │
-    │    b. Change ADMIN_PASSWORD to something secure.                         │
-    │    c. Delete the setup-notice div below.                                 │
-    │                                                                          │
-    │  Viewing & exporting responses                                           │
-    │    Open your Google Sheet → the "RSVPs" tab has every submission.        │
-    │    Export: File → Download → CSV (.csv)  — no subscription needed.       │
-    └──────────────────────────────────────────────────────────────────────────┘
-    -->
-
-    <!-- Remove this block after setup -->
-    <div class="setup-notice" id="setup-notice">
-        ⚙️ <strong>Setup required:</strong> Follow the instructions in the HTML comment above to connect a free
-        Google Sheet backend. Replace <code>GOOGLE_SCRIPT_URL</code> in the <code>&lt;script&gt;</code> section
-        with your deployed Apps Script URL, then delete this notice.
-        Also change <code>ADMIN_PASSWORD</code> to something secure.
-    </div>
 
     <!-- Tab switcher -->
     <div class="tabs" role="tablist">
