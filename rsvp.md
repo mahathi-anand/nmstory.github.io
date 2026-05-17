@@ -443,27 +443,65 @@ show-tile: true
 <div class="container">
 
     <!--
-    ┌─────────────────────────────────────────────────────────────────────┐
-    │  SETUP INSTRUCTIONS                                                 │
-    │                                                                     │
-    │  For real multi-device data collection:                             │
-    │  1. Sign up free at https://formspree.io                            │
-    │  2. Create a new form → copy the form ID (e.g. "xpwzabcd")         │
-    │  3. Replace YOUR_FORMSPREE_ID below with your ID                    │
-    │  4. Delete or hide the .setup-notice div below                      │
-    │  5. Change ADMIN_PASSWORD in the <script> section                   │
-    │                                                                     │
-    │  Without Formspree, the Admin panel only shows submissions made on  │
-    │  the same device (localStorage). With Formspree, ALL submissions    │
-    │  are emailed to you and exportable as CSV from their dashboard.     │
-    └─────────────────────────────────────────────────────────────────────
+    ┌──────────────────────────────────────────────────────────────────────────┐
+    │  SETUP — Google Sheets backend (100% free, no subscription needed)       │
+    │                                                                          │
+    │  Step 1 — Create the spreadsheet                                         │
+    │    a. Go to https://sheets.google.com and create a new blank sheet.      │
+    │    b. Name it anything (e.g. "Event RSVPs").                             │
+    │                                                                          │
+    │  Step 2 — Add the Apps Script                                            │
+    │    a. In the sheet: Extensions → Apps Script.                            │
+    │    b. Delete the placeholder code and paste this entire block:           │
+    │                                                                          │
+    │  ── paste from here ────────────────────────────────────────────────── ──│
+    │  function doPost(e) {                                                    │
+    │    const ss = SpreadsheetApp.getActiveSpreadsheet();                     │
+    │    let sheet = ss.getSheetByName('RSVPs');                               │
+    │    if (!sheet) {                                                         │
+    │      sheet = ss.insertSheet('RSVPs');                                    │
+    │      sheet.appendRow([                                                   │
+    │        'Submitted At','Guest Type','Name','Email','Mobile',              │
+    │        'Additional Guests','Children','Dietary / Allergies',             │
+    │        'WhatsApp Consent'                                                │
+    │      ]);                                                                 │
+    │      sheet.getRange(1,1,1,9).setFontWeight('bold');                      │
+    │    }                                                                     │
+    │    const p = e.parameter;                                                │
+    │    sheet.appendRow([                                                     │
+    │      p.submitted_at || new Date().toLocaleString(),                      │
+    │      p.guest_type || '', p.name || '', p.email || '',                    │
+    │      p.mobile || '', p.additional_guests || '', p.children || '',        │
+    │      p.dietary || '', p.whatsapp_consent || ''                           │
+    │    ]);                                                                   │
+    │    return ContentService                                                 │
+    │      .createTextOutput(JSON.stringify({result:'success'}))               │
+    │      .setMimeType(ContentService.MimeType.JSON);                         │
+    │  }                                                                       │
+    │  ── paste to here ──────────────────────────────────────────────────── ──│
+    │                                                                          │
+    │  Step 3 — Deploy as Web App                                              │
+    │    a. Click Deploy → New deployment → Web app.                           │
+    │    b. Execute as: Me                                                     │
+    │    c. Who has access: Anyone                                             │
+    │    d. Click Deploy → copy the Web App URL.                               │
+    │                                                                          │
+    │  Step 4 — Wire it up here                                                │
+    │    a. Paste the URL as GOOGLE_SCRIPT_URL in the <script> section below.  │
+    │    b. Change ADMIN_PASSWORD to something secure.                         │
+    │    c. Delete the setup-notice div below.                                 │
+    │                                                                          │
+    │  Viewing & exporting responses                                           │
+    │    Open your Google Sheet → the "RSVPs" tab has every submission.        │
+    │    Export: File → Download → CSV (.csv)  — no subscription needed.       │
+    └──────────────────────────────────────────────────────────────────────────┘
     -->
 
     <!-- Remove this block after setup -->
     <div class="setup-notice" id="setup-notice">
-        ⚙️ <strong>Setup required:</strong> Replace <code>YOUR_FORMSPREE_ID</code> in the <code>&lt;script&gt;</code> section with your
-        <a href="https://formspree.io" target="_blank">Formspree</a> form ID to enable cloud data collection.
-        Until then, only the Admin panel on this device will capture submissions.
+        ⚙️ <strong>Setup required:</strong> Follow the instructions in the HTML comment above to connect a free
+        Google Sheet backend. Replace <code>GOOGLE_SCRIPT_URL</code> in the <code>&lt;script&gt;</code> section
+        with your deployed Apps Script URL, then delete this notice.
         Also change <code>ADMIN_PASSWORD</code> to something secure.
     </div>
 
@@ -582,9 +620,9 @@ show-tile: true
         <div id="admin-content" style="display:none;">
             <div class="admin-note">
                 ℹ️ This table shows submissions stored on <strong>this device</strong>.
-                If you configured Formspree, all guest submissions are also available in your
-                <a href="https://formspree.io" target="_blank" style="color:inherit">Formspree dashboard</a>
-                with full CSV export.
+                All submissions from guests on their own devices are saved in your
+                <strong>Google Sheet</strong> (RSVPs tab) — export anytime via
+                <em>File → Download → CSV</em>.
             </div>
 
             <div class="admin-header">
@@ -623,12 +661,11 @@ show-tile: true
 <!-- ═══════════════════════════════ SCRIPT ═════════════════════════════════ -->
 <script>
 // ─── CONFIGURATION — edit these two values ──────────────────────────────────
-const FORMSPREE_ID    = 'xqengvyk'; // e.g. 'xpwzabcd'
-const ADMIN_PASSWORD  = 'df1263s5dsf3';          // change to something secure
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx9nC_7zHAAR6zwvOdidxJKpeTEiybVSnEyTAGRdod0SxXx41BFIzYYXExNt_KTB1HKRg/exec'; // paste your Apps Script Web App URL
+const ADMIN_PASSWORD    = 'df1263s5dsf3';               // change to something secure
 // ────────────────────────────────────────────────────────────────────────────
 
-const FORMSPREE_URL   = `https://formspree.io/f/xqengvyk`;
-const LS_KEY          = 'rsvp_submissions';
+const LS_KEY = 'rsvp_submissions';
 
 let adminUnlocked = false;
 
@@ -724,16 +761,16 @@ document.getElementById('rsvp-form').addEventListener('submit', async (e) => {
     stored.push(entry);
     localStorage.setItem(LS_KEY, JSON.stringify(stored));
 
-    // Submit to Formspree if configured
-    if (FORMSPREE_ID !== 'YOUR_FORMSPREE_ID') {
+    // Submit to Google Sheets via Apps Script if configured.
+    // Uses no-cors + FormData — the browser won't read the response,
+    // but the Apps Script doPost() receives and saves all fields.
+    if (GOOGLE_SCRIPT_URL !== 'YOUR_GOOGLE_SCRIPT_URL') {
         try {
-            await fetch(FORMSPREE_URL, {
-                method:  'POST',
-                headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-                body:    JSON.stringify(entry),
-            });
+            const fd = new FormData();
+            Object.entries(entry).forEach(([k, v]) => fd.append(k, v));
+            await fetch(GOOGLE_SCRIPT_URL, { method: 'POST', mode: 'no-cors', body: fd });
         } catch (err) {
-            console.warn('Formspree error:', err);
+            console.warn('Google Sheets error:', err);
         }
     }
 
