@@ -376,9 +376,9 @@ show-tile: true
     <p class="hero-sub"></p>
     <h1>Please RSVP</h1>
     <p>Kindly confirm your attendance and let us know a few details so we can make the day perfect for everyone.</p>
-    <p>Wedding Venue: <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a><br><br>
+    <p>Wedding Venue: <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a><br>
      Dates: 10th and 11th December, 2026</p>
-    <p>Note that accommodations for the wedding dates are included. <br><br>
+    <p>Note that accommodations for the wedding dates are included. <br>
     Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
     <p>Other details will follow soon. Stay tuned for more updates in the website. </p> 
 
