@@ -17,7 +17,7 @@ show-tile: true
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
-            --gold:        #C0392B;
+            --gold:        #ffffff;
             --gold-light:  #161a34;
             --gold-pale:   #242943;
             --bg:          #242943;
@@ -195,7 +195,7 @@ show-tile: true
         .btn-submit {
             width: 100%;
             padding: 14px;
-            background: var(--gold);
+            background: var(--gold-light);
             color: #fff;
             border: none;
             border-radius: 10px;
@@ -206,7 +206,7 @@ show-tile: true
             transition: background .2s, transform .1s;
             letter-spacing: .03em;
         }
-        .btn-submit:hover   { background: #7D6120; }
+        .btn-submit:hover   { background: #303030; }
         .btn-submit:active  { transform: scale(.99); }
         .btn-submit:disabled { opacity: .7; cursor: not-allowed; }
 
