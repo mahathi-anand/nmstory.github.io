@@ -381,7 +381,12 @@ show-tile: true
     <p>Note that accommodations for the wedding dates are included. <br>
     Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
     <p>Other details will follow soon. Stay tuned for more updates in the website. </p> 
-
+    <p><i>Bitte lasst uns bis zum 31. Juli 2026 wissen ob ihr mit uns feiern könnt.</i></p>
+    <p><i>Hochzeitsort:</i> <a href="https://browntownresort.com/" target="_blank"><i>Brown Town Resort, Spa &amp; Convention</i></a><br>
+     <i>Termin: 10. und 11. Dezember, 2026</i></p>
+    <p><i>Bitte beachtet, dass wir die Unterbringung während der Hochzeit übernehmen. </i><br>
+    <i>Check-in: 10. Dezember, 14:00. Check-out: 12. Dezember, 11:00 </i></p>
+    <p><i>Bleibt dran für weitere Infos auf unserer Website. </i></p> 
 </div>
 
 <!-- ═══════════════════════════════ MAIN ═══════════════════════════════════ -->
@@ -394,10 +399,10 @@ show-tile: true
 
             <!-- ── Your Details ─────────────────────────────────── -->
             <div class="section">
-                <p class="section-title">Your Details</p>
+                <p class="section-title">Your Details/<i>Details</i></p>
 
                 <div class="field">
-                    <label for="f_name">Full Name <span class="req">*</span></label>
+                    <label for="f_name">Full Name/<i>Name</i><span class="req">*</span></label>
                     <input type="text" id="f_name" name="name"
                            placeholder="First and last name"
                            autocomplete="name" required>
@@ -406,16 +411,16 @@ show-tile: true
 
                 <div class="field-row">
                     <div class="field" style="margin-bottom:0">
-                        <label for="f_email">Email Address <span class="req">*</span></label>
+                        <label for="f_email">Email Address/<i>Email Adresse</i> <span class="req">*</span></label>
                         <input type="email" id="f_email" name="email"
                                placeholder="you@example.com"
                                autocomplete="email" required>
                         <div class="field-error" id="err_email">Please enter a valid email address.</div>
                     </div>
                     <div class="field" style="margin-bottom:0">
-                        <label for="f_mobile">Mobile Number <span class="req">*</span></label>
+                        <label for="f_mobile">Mobile Number/<i>Handynummer</i> <span class="req">*</span></label>
                         <input type="tel" id="f_mobile" name="mobile"
-                               placeholder="+1 234 567 8900"
+                               placeholder="+1 234 567 8900/+49 123 45678900"
                                autocomplete="tel" required>
                         <div class="field-error" id="err_mobile">Please enter your mobile number.</div>
                     </div>
@@ -424,21 +429,21 @@ show-tile: true
 
             <!-- ── Additional Guests ────────────────────────────── -->
             <div class="section">
-                <p class="section-title">Additional Guests <span style="font-weight:400; font-size:.9em; text-transform:none; letter-spacing:0">(optional)</span></p>
+                <p class="section-title">Additional Guests/<i>Zusätzliche Gäste</i> <span style="font-weight:400; font-size:.9em; text-transform:none; letter-spacing:0">(optional)</span></p>
                 <div class="guest-list" id="adult-list" aria-label="Additional adult guests"></div>
                 <button type="button" class="btn-add" onclick="addGuest('adult')">+ Add adult guest</button>
             </div>
 
             <!-- ── Children ─────────────────────────────────────── -->
             <div class="section">
-                <p class="section-title">Children <span style="font-weight:400; font-size:.9em; text-transform:none; letter-spacing:0">(optional)</span></p>
+                <p class="section-title">Children/<i>Kinder</i><span style="font-weight:400; font-size:.9em; text-transform:none; letter-spacing:0">(optional)</span></p>
                 <div class="guest-list" id="kids-list" aria-label="Children"></div>
                 <button type="button" class="btn-add" onclick="addGuest('kid')">+ Add child's name</button>
             </div>
 
             <!-- ── Dietary ──────────────────────────────────────── -->
             <div class="section">
-                <p class="section-title">Dietary Restrictions &amp; Allergies</p>
+                <p class="section-title">Dietary Restrictions &amp; Allergies/<i>Allergien oder Unverträglichkeiten</i></p>
                 <div class="field" style="margin-bottom:0">
                     <label for="f_dietary">
                         Please list any dietary requirements or allergies
@@ -456,12 +461,14 @@ show-tile: true
                     <input type="checkbox" id="f_whatsapp" name="whatsapp_consent" value="yes">
                     <span>
                         I agree to be added to the WhatsApp group for event planning and information updates.
-                        The mobile number I provided above will be used for this purpose.
+                        The mobile number I provided above will be used for this purpose.<br>
+                        <i>Ich stimme zu, dass ich zu einer Whatsapp-Gruppe hinzugefügt werden darf um Plannungsdetails oder Updates zur Hochzeit vor und während dem Event zu erhalten.
+                        Die Handynummer wird nur zu diesem Zweck verwendet.</i>
                     </span>
                 </label>
             </div>
 
-            <button type="submit" class="btn-submit" id="submit-btn">Confirm my RSVP</button>
+            <button type="submit" class="btn-submit" id="submit-btn">Confirm my RSVP/<i>Sende meine Antwort</i></button>
         </form>
     </div>
 
@@ -471,7 +478,9 @@ show-tile: true
         <h2>Thank you!</h2>
         <p>
             Your RSVP has been received. We look forward to celebrating with you!<br><br>
-            If you opted in to the WhatsApp group, you will receive an invitation to join soon.
+            If you opted in to the WhatsApp group, you will receive an invitation to join soon. <br><br>
+            <i>Deine Antwort wurde versendet. Wir freuen uns mit dir zu feiern! <br><br>
+            Falls du der Whatsapp-Gruppe zugestimmt hast, wirst du bald eine Einladung dazu erhalten.</i>
         </p>
     </div>
 
