@@ -166,11 +166,12 @@ show-tile: true
         }
         .btn-add:hover { background: var(--gold-pale); }
 
-        /* ── Consent box ──────────────────────────────────────────── */
+        /* ── Consent / toggle ─────────────────────────────────────── */
         .consent-label {
             display: flex;
-            gap: 12px;
-            align-items: flex-start;
+            gap: 16px;
+            align-items: center;
+            justify-content: space-between;
             padding: 16px;
             background: var(--gold-pale);
             border-radius: 10px;
@@ -178,17 +179,41 @@ show-tile: true
             cursor: pointer;
         }
         .consent-label input[type="checkbox"] {
-            width: 20px; height: 20px;
-            margin-top: 2px;
-            flex-shrink: 0;
-            accent-color: var(--gold);
-            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+            width: 0; height: 0;
+            pointer-events: none;
         }
         .consent-label span {
             font-size: .88em;
             line-height: 1.55;
             color: var(--text);
             font-family: system-ui, sans-serif;
+            flex: 1;
+        }
+        .toggle-track {
+            flex-shrink: 0;
+            width: 48px; height: 28px;
+            background: #ccc;
+            border-radius: 14px;
+            position: relative;
+            transition: background .2s;
+        }
+        .toggle-track::after {
+            content: '';
+            position: absolute;
+            top: 3px; left: 3px;
+            width: 22px; height: 22px;
+            background: #fff;
+            border-radius: 50%;
+            transition: transform .2s;
+            box-shadow: 0 1px 4px rgba(0,0,0,.25);
+        }
+        .consent-label input[type="checkbox"]:checked ~ .toggle-track {
+            background: var(--gold-light);
+        }
+        .consent-label input[type="checkbox"]:checked ~ .toggle-track::after {
+            transform: translateX(20px);
         }
 
         /* ── Submit ───────────────────────────────────────────────── */
@@ -458,13 +483,14 @@ show-tile: true
             <div class="section">
                 <p class="section-title">WhatsApp Planning Group</p>
                 <label class="consent-label" for="f_whatsapp">
-                    <input type="checkbox" id="f_whatsapp" name="whatsapp_consent" value="yes">
                     <span>
                         I agree to be added to the WhatsApp group for event planning and information updates.
                         The mobile number I provided above will be used for this purpose.<br>
                         <i>Ich stimme zu, dass ich zu einer Whatsapp-Gruppe hinzugefügt werden darf um Plannungsdetails oder Updates zur Hochzeit vor und während dem Event zu erhalten.
                         Die Handynummer wird nur zu diesem Zweck verwendet.</i>
                     </span>
+                    <input type="checkbox" id="f_whatsapp" name="whatsapp_consent" value="yes">
+                    <div class="toggle-track"></div>
                 </label>
             </div>
 
@@ -545,16 +571,12 @@ show-tile: true
 
 <!-- ═══════════════════════════════ SCRIPT ═════════════════════════════════ -->
 <script>
-// ─── CONFIGURATION — edit these two values ──────────────────────────────────
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx9nC_7zHAAR6zwvOdidxJKpeTEiybVSnEyTAGRdod0SxXx41BFIzYYXExNt_KTB1HKRg/exec'; // paste your Apps Script Web App URL
-const ADMIN_PASSWORD    = 'df1263s5dsf3';               // change to something secure
-// ────────────────────────────────────────────────────────────────────────────
-
-const LS_KEY = 'rsvp_submissions';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx9nC_7zHAAR6zwvOdidxJKpeTEiybVSnEyTAGRdod0SxXx41BFIzYYXExNt_KTB1HKRg/exec';
+const ADMIN_PASSWORD    = 'df1263s5dsf3';
+const LS_KEY            = 'rsvp_submissions';
 
 let adminUnlocked = false;
 
-// ── Tab switching ─────────────────────────────────────────────────────────
 function switchTab(tab) {
     const isIntl = tab === 'international';
     document.getElementById('f_guest_type').value = isIntl ? 'International' : 'Local';
@@ -562,13 +584,11 @@ function switchTab(tab) {
     document.getElementById('tab-local').classList.toggle('active', !isIntl);
 }
 
-// ── Dynamic guest rows ────────────────────────────────────────────────────
 function addGuest(type) {
-    const listId     = type === 'adult' ? 'adult-list' : 'kids-list';
+    const listId      = type === 'adult' ? 'adult-list' : 'kids-list';
     const placeholder = type === 'adult' ? 'Guest full name' : "Child's name";
     const list = document.getElementById(listId);
-
-    const row = document.createElement('div');
+    const row  = document.createElement('div');
     row.className = 'guest-row';
     row.innerHTML =
         `<input type="text" class="${type}-name" placeholder="${placeholder}" aria-label="${placeholder}">` +
@@ -582,27 +602,16 @@ function collectNames(cssClass) {
         .map(i => i.value.trim()).filter(Boolean).join(', ');
 }
 
-// ── Validation ────────────────────────────────────────────────────────────
 function validateForm() {
     const rules = [
-        {
-            id: 'f_name',  errId: 'err_name',
-            ok: v => v.trim().length >= 2
-        },
-        {
-            id: 'f_email', errId: 'err_email',
-            ok: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim())
-        },
-        {
-            id: 'f_mobile', errId: 'err_mobile',
-            ok: v => v.trim().replace(/\D/g, '').length >= 6
-        },
+        { id: 'f_name',   errId: 'err_name',   ok: v => v.trim().length >= 2 },
+        { id: 'f_email',  errId: 'err_email',  ok: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()) },
+        { id: 'f_mobile', errId: 'err_mobile', ok: v => v.trim().replace(/\D/g, '').length >= 6 },
     ];
-
     let valid = true;
     rules.forEach(({ id, errId, ok }) => {
-        const el  = document.getElementById(id);
-        const err = document.getElementById(errId);
+        const el   = document.getElementById(id);
+        const err  = document.getElementById(errId);
         const pass = ok(el.value);
         el.classList.toggle('invalid', !pass);
         err.style.display = pass ? 'none' : 'block';
@@ -611,16 +620,13 @@ function validateForm() {
     return valid;
 }
 
-// Clear validation state on input
 ['f_name', 'f_email', 'f_mobile'].forEach(id => {
     document.getElementById(id).addEventListener('input', () => {
-        const el = document.getElementById(id);
-        el.classList.remove('invalid');
+        document.getElementById(id).classList.remove('invalid');
         document.getElementById('err_' + id.replace('f_', '')).style.display = 'none';
     });
 });
 
-// ── Form submission ───────────────────────────────────────────────────────
 document.getElementById('rsvp-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
@@ -641,34 +647,26 @@ document.getElementById('rsvp-form').addEventListener('submit', async (e) => {
         submitted_at:      new Date().toLocaleString(),
     };
 
-    // Save to localStorage (same-device admin view)
     const stored = JSON.parse(localStorage.getItem(LS_KEY) || '[]');
     stored.push(entry);
     localStorage.setItem(LS_KEY, JSON.stringify(stored));
 
-    // Submit to Google Sheets via Apps Script if configured.
-    // Uses no-cors + FormData — the browser won't read the response,
-    // but the Apps Script doPost() receives and saves all fields.
-    if (GOOGLE_SCRIPT_URL !== 'YOUR_GOOGLE_SCRIPT_URL') {
-        try {
-            const fd = new FormData();
-            Object.entries(entry).forEach(([k, v]) => fd.append(k, v));
-            await fetch(GOOGLE_SCRIPT_URL, { method: 'POST', mode: 'no-cors', body: fd });
-        } catch (err) {
-            console.warn('Google Sheets error:', err);
-        }
+    try {
+        await fetch(GOOGLE_SCRIPT_URL, {
+            method:  'POST',
+            mode:    'no-cors',
+            headers: { 'Content-Type': 'text/plain' },
+            body:    JSON.stringify(entry),
+        });
+    } catch (err) {
+        console.warn('Google Sheets error:', err);
     }
 
-    // Show success screen
     document.getElementById('form-card').style.display = 'none';
-    document.querySelector('.tabs').style.display = 'none';
-    const notice = document.getElementById('setup-notice');
-    if (notice) notice.style.display = 'none';
     document.getElementById('success-msg').classList.add('visible');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// ── Admin panel ───────────────────────────────────────────────────────────
 function toggleAdmin() {
     const panel = document.getElementById('admin-panel');
     panel.classList.toggle('visible');
@@ -690,17 +688,14 @@ function renderTable() {
     const data = JSON.parse(localStorage.getItem(LS_KEY) || '[]');
     document.getElementById('rsvp-count').textContent =
         data.length === 1 ? '1 entry' : `${data.length} entries`;
-
     const tbody = document.getElementById('rsvp-tbody');
     tbody.innerHTML = '';
-
     if (!data.length) {
         tbody.innerHTML = '<tr class="empty-row"><td colspan="10">No submissions on this device yet.</td></tr>';
         return;
     }
-
     data.forEach((r, i) => {
-        const tr = document.createElement('tr');
+        const tr   = document.createElement('tr');
         const intl = r.guest_type === 'International';
         tr.innerHTML = `
             <td>${i + 1}</td>
@@ -725,19 +720,12 @@ function esc(str) {
 function exportCSV() {
     const data = JSON.parse(localStorage.getItem(LS_KEY) || '[]');
     if (!data.length) { alert('No data to export.'); return; }
-
-    const headers = [
-        '#', 'Type', 'Name', 'Email', 'Mobile',
-        'Additional Guests', 'Children', 'Dietary / Allergies',
-        'WhatsApp Consent', 'Submitted At'
-    ];
-
+    const headers = ['#','Type','Name','Email','Mobile','Additional Guests','Children','Dietary / Allergies','WhatsApp Consent','Submitted At'];
     const rows = data.map((r, i) => [
         i + 1, r.guest_type, r.name, r.email, r.mobile,
         r.additional_guests || '', r.children || '',
         r.dietary || '', r.whatsapp_consent, r.submitted_at,
     ].map(v => `"${String(v).replace(/"/g, '""')}"`));
-
     const csv  = [headers.map(h => `"${h}"`), ...rows].map(r => r.join(',')).join('\r\n');
     const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
     const url  = URL.createObjectURL(blob);
