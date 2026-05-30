@@ -400,18 +400,15 @@ show-tile: true
 <div class="hero">
     <p class="hero-sub"></p>
     <h1>Please RSVP</h1>
-    <p>Kindly confirm your attendance and let us know a few details so we can make the day perfect for everyone.</p>
+    <p>Kindly confirm your attendance until the 31st of July and let us know a few details so we can make the day perfect for everyone.<br>
+    <i>Bitte lasst uns bis zum 31. Juli 2026 wissen ob ihr mit uns feiern könnt. Sendet uns ein paar Details für unsere Planung </i></p>
     <p>Wedding Venue: <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a><br>
      Dates: 10th and 11th December, 2026</p>
     <p>Note that accommodations for the wedding dates are included. <br>
+    <i>Bitte beachtet, dass wir die Unterbringung während der Hochzeit übernehmen. </i><br>
     Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
-    <p>Other details will follow soon. Stay tuned for more updates in the website. </p> 
-    <p><i>Bitte lasst uns bis zum 31. Juli 2026 wissen ob ihr mit uns feiern könnt.</i></p>
-    <p><i>Hochzeitsort:</i> <a href="https://browntownresort.com/" target="_blank"><i>Brown Town Resort, Spa &amp; Convention</i></a><br>
-     <i>Termin: 10. und 11. Dezember, 2026</i></p>
-    <p><i>Bitte beachtet, dass wir die Unterbringung während der Hochzeit übernehmen. </i><br>
-    <i>Check-in: 10. Dezember, 14:00. Check-out: 12. Dezember, 11:00 </i></p>
-    <p><i>Bleibt dran für weitere Infos auf unserer Website. </i></p> 
+    <p>Other details will follow soon. Stay tuned for more updates in the website.
+    <i>Bleibt dran für weitere Infos auf unserer Website. </i></p> 
 </div>
 
 <!-- ═══════════════════════════════ MAIN ═══════════════════════════════════ -->
@@ -484,9 +481,9 @@ show-tile: true
                 <p class="section-title">WhatsApp Planning Group</p>
                 <label class="consent-label" for="f_whatsapp">
                     <span>
-                        I agree to be added to the WhatsApp group for event planning and information updates.
+                        I am an international guest and I agree to be added to the WhatsApp group for event planning and information updates.
                         The mobile number I provided above will be used for this purpose.<br>
-                        <i>Ich stimme zu, dass ich zu einer Whatsapp-Gruppe hinzugefügt werden darf um Plannungsdetails oder Updates zur Hochzeit vor und während dem Event zu erhalten.
+                        <i>ich bin ein internationaler Gast und ich stimme zu, dass ich zu einer Whatsapp-Gruppe hinzugefügt werden darf um Plannungsdetails oder Updates zur Hochzeit vor und während dem Event zu erhalten.
                         Die Handynummer wird nur zu diesem Zweck verwendet.</i>
                     </span>
                     <input type="checkbox" id="f_whatsapp" name="whatsapp_consent" value="yes">
