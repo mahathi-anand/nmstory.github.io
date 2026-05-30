@@ -407,7 +407,7 @@ show-tile: true
     <p>Note that accommodations for the wedding dates are included. <br>
     <i>Bitte beachtet, dass wir die Unterbringung während der Hochzeit übernehmen. </i><br>
     Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
-    <p>Other details will follow soon. Stay tuned for more updates in the website.
+    <p>Other details will follow soon. Stay tuned for more updates in the website.<br>
     <i>Bleibt dran für weitere Infos auf unserer Website. </i></p> 
 </div>
 
@@ -467,10 +467,6 @@ show-tile: true
             <div class="section">
                 <p class="section-title">Dietary Restrictions &amp; Allergies/<i>Allergien oder Unverträglichkeiten</i></p>
                 <div class="field" style="margin-bottom:0">
-                    <label for="f_dietary">
-                        Please list any dietary requirements or allergies
-                        <span class="opt">(leave blank if none)</span>
-                    </label>
                     <textarea id="f_dietary" name="dietary"
                               placeholder="e.g. vegetarian, gluten-free, nut allergy, lactose intolerant…"></textarea>
                 </div>
