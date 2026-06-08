@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our Story <br> <i>Unsere Geschichte</i>
-description: How we met and where we're going <br> <i>Unser Kennenlernen und wohin es für uns geht</i>
+description: "How we met and where we're going <br> <i>Unser Kennenlernen und wohin es für uns geht</i>"
 image: assets/images/collage.png
 nav-menu: true
 permalink: /our-story/
