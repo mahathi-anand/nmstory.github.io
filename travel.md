@@ -37,7 +37,7 @@ Other recommended airlines are Emirates (Frankfurt/Munich  → Dubai  → Hydera
 Another possible option is via Air India:
 1. Frankfurt  → Hyderabad
 2. Munich  → Frankfurt  → Hyderabad. <br>
-However, we do not recommend flying with Air India as we have received mixed feedback regarding the experiences. 
+While Air India may offer a cheaper alternative, we do not generally recommend flying with Air India as we have received mixed feedback regarding the experiences. 
 
 Once you arrive at the Hyderabad airport, the wedding venue is best reached within 45 mins by taxi (Uber, Ola, Rapido, Meru - all of which can be booked via phone apps or directly at the airport's arrival lounge). 
 
@@ -49,4 +49,4 @@ Application for visas may be submitted no earlier than one month prior to the tr
 
 ## FAQs
 
-Traveling to a new country (especially one that is culturally quite different from what we know) is adventerous, but scary! Do not let that stop you from celebrating with us. Once we have a finalized guest list, we will provide you with a quick guide to India and Hyderabad to make your journey and time here with us as comfortable and memorable as possible. Stay tuned to this page for more updates!
+Traveling to a new country (especially one that is culturally quite different from what we know) is exciting and adventerous, but also perhaps a bit scary! Do not let that stop you from celebrating with us. Once we have a finalized guest list, we will provide you with a quick guide to India and Hyderabad to make your journey and time here with us as comfortable and memorable as possible. Stay tuned to this page for more updates!
