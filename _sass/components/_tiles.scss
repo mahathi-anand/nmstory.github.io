@@ -43,6 +43,9 @@
 			header {
 				position: relative;
 				z-index: 3;
+
+				p br { display: none; }
+				p i  { display: block; margin-top: 0.3em; }
 			}
 
 			h3 {
@@ -162,7 +165,7 @@
 		@include breakpoint(small) {
 			article {
 				@include padding(3em, 1.5em);
-				height: 20em;
+				height: 24em;
 				max-height: none;
 				min-height: 0;
 
@@ -176,7 +179,7 @@
 			display: block;
 
 			article {
-				height: 20em;
+				height: 24em;
 				width: 100% !important;
 			}
 		}
