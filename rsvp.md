@@ -400,10 +400,11 @@ show-tile: true
     <p>Note that accommodations for the wedding dates are included. <br>
     <i>Bitte beachtet, dass wir die Unterbringung während der Hochzeit übernehmen. </i><br>
     Check-in: 10th December, 2:00pm. Check-out: 12th December, 11:00am </p>
-    <p>Other details will follow soon. Stay tuned for more updates in the website.<br>
-    <i>Bleibt dran für weitere Infos auf unserer Website. </i></p>
     <p>📍 For travel and venue details, visit our <a href="/travel/">Travel &amp; Venue</a> page.<br>
     <i>📍 Für Reise- und Unterkunftsinformationen, besucht unsere <a href="/travel/">Reise &amp; Veranstaltungsort</a> Seite.</i></p>
+    <p>Other details will follow soon. Stay tuned for more updates in the website.<br>
+    <i>Bleibt dran für weitere Infos auf unserer Website. </i></p>
+
 </div>
 
 <!-- ═══════════════════════════════ MAIN ═══════════════════════════════════ -->
