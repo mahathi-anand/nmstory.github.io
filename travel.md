@@ -20,7 +20,7 @@ Nicknamed as "The City of Pearls", Hyderabad was once a major trading hub of pea
 
 Aside from the famous monuments of Charminar, Golkonda Fort, Buddha Statue (surrounded by the Tank Bund lake), and Birla Mandir, Hyderabad also is home to the world's largest film studio complex, known as Ramoji Film City. The Salar Jung museum is also not to be missed. 
 
-More importantly, Hyderabad's cuisine is worth dying for. Shaped by the local Hindus and influences from the Muslims during the Nizam rule, Hyderabad's unique cuisine is a melting point of culture and Hindu-Muslim brotherhood. Try the world famous Hyderabadi Biryani for lunch, with a nice sweet treat of double-ka-meetha. Then spice up your evening with authentic local Telangana cuisine. We will be happy to give you specific restaurant recommendations, just ask!
+More importantly, Hyderabad's cuisine is worth dying for. Shaped by the local Hindus and influences from the Muslims during the Nizam rule, Hyderabad's unique cuisine is a melting point of culture and Hindu-Muslim brotherhood. Try the world famous Hyderabadi Biryani for lunch, with a nice sweet treat of double-ka-meetha. Then go for a nice warm Irani Chai with Osmania biscuits in the afternoon, and then spice up your evening with authentic local Telangana cuisine. We will be happy to give you specific restaurant recommendations, just ask!
 
 ## Travel to Venue
 
