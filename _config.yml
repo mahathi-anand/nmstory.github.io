@@ -6,7 +6,7 @@ description: >
   Save the date: Our forever begins on <br>
   December 11, 2026
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nmstory.github.io/" # the base hostname & protocol for your site
+url: "https://nmstory.tiworld.org" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville

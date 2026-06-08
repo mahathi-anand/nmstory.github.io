@@ -1,19 +1,14 @@
 ---
 layout: post
 title: RSVP <br>
-description: <i>You are invited/Du bist eingeladen</i>
+description: "You are invited <br> <i>Du bist eingeladen</i>"
 image: assets/images/collage.png
 nav-menu: true
 permalink: /rsvp/
 show-tile: true
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSVP</title>
-    <style>
+<style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
         :root {
@@ -393,8 +388,6 @@ show-tile: true
         .badge-intl  { background: #EBF5FB; color: #1A5276; }
         .badge-local { background: #EAFAF0; color: #1A6A3A; }
     </style>
-</head>
-<body>
 
 <!-- ═══════════════════════════════ HERO ═══════════════════════════════════ -->
 <div class="hero">
@@ -736,6 +729,3 @@ function clearData() {
     }
 }
 </script>
-
-</body>
-</html>

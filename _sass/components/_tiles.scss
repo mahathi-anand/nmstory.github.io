@@ -162,7 +162,7 @@
 		@include breakpoint(small) {
 			article {
 				@include padding(3em, 1.5em);
-				height: 16em;
+				height: 20em;
 				max-height: none;
 				min-height: 0;
 
