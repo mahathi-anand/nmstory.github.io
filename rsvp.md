@@ -2,7 +2,7 @@
 layout: post
 title: RSVP <br>
 description: "You are invited <br> <i>Du bist eingeladen</i>"
-image: assets/images/collage.png
+image: assets/images/rsvp.png
 nav-menu: true
 permalink: /rsvp/
 show-tile: true
