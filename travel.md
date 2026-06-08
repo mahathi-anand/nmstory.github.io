@@ -49,4 +49,4 @@ Application for visas may be submitted no earlier than one month prior to the tr
 
 ## FAQs
 
-Traveling to a new country (especially one that is culturally quite different from what we know) is adventerous, but scary! Do not let that stop you from celebrating with us. Once we have a finalized guest list, we will provide you with a quick guide to India to make your journey and time here with us as comfortable and memorable as possible. Stay tuned to this page for more updates!
+Traveling to a new country (especially one that is culturally quite different from what we know) is adventerous, but scary! Do not let that stop you from celebrating with us. Once we have a finalized guest list, we will provide you with a quick guide to India and Hyderabad to make your journey and time here with us as comfortable and memorable as possible. Stay tuned to this page for more updates!
