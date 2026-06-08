@@ -14,7 +14,7 @@ Hyderabad is the largest city and the capital of the South Indian state of Telan
 
 Hyderabad has a rich history, with records dating back to the stone age. Its modern history is heavily shaped by its most recent rulers --- the Nizams of Hyderabad --- as well as by interactions with British colonial authorities. 
 
-Nicknamed as "The City of Pearls", Hyderabad was once a major trading hub of pearls and the famous Golkonda diamonds (like the Koh-i-noor and the Hope Diamond). Today, it may no longer be the diamond hub it once was, but still remains globally known for its pearls. 
+Nicknamed as "The City of Pearls", Hyderabad was once a major trading hub of pearls and was once the only city in the entire world that traded diamonds (The world famous Koh-i-noor originated in the region). Today, it may no longer be the diamond hub it once was, but still remains globally known for its pearls (if you would like to buy them though, seek out legitimate suppliers first!). 
 
 ### What does Hyderabad offer today? 
 
