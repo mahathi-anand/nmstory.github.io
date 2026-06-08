@@ -1,7 +1,7 @@
 ---
 layout: post
-title: venue and Travel <br>
-description: <i>You are invited/Du bist eingeladen</i>
+title: Travel and Venue <br>
+description: "Travel and venue information <br> <i> Informationen zu Anreise und Veranstaltungsort </i>"
 image: assets/images/hyderabad.jpg
 nav-menu: true
 permalink: /travel/
