@@ -24,7 +24,7 @@ More importantly, Hyderabad's cuisine is absolutely not to be missed. Shaped by 
 
 ## Travel to Venue
 
-The wedding festivities will take place in <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a><br>, located in the outskirts of Hyderabad, India. 
+The wedding festivities will take place in <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a>, located in the outskirts of Hyderabad, India. 
 
 For international travelers, the closest airport is the Rajiv Gandhi International Airport, Shamshabad, Hyderabad. The airport serves multiple international destinations including Germany, the United States of India and the Gulf Countries. 
 
