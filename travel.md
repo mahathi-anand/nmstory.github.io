@@ -35,8 +35,7 @@ For travelers from Germany, we highly recommend traveling via Lufthansa for dire
 Other recommended airlines are Emirates (Frankfurt/Munich  → Dubai  → Hyderabad), Etihad (Frankfurt/Munich → Abu Dhabi  → Hyderabad), or Qatar Airways (Frankfurt/Munich  → Doha  → Hyderabad). Note however the political situation in west Asia before deciding to fly over these airports. 
 
 Another possible option is via Air India:
-1. Frankfurt  → Hyderabad
-2. Munich  → Frankfurt  → Hyderabad. <br>
+1. Frankfurt  → New Dehli → Hyderabad <br>
 While Air India may offer a cheaper alternative, we do not generally recommend flying with Air India as we have received mixed feedback regarding the experiences. 
 
 Once you arrive at the Hyderabad airport, the wedding venue is best reached within 45 mins by taxi (Uber, Ola, Rapido, Meru - all of which can be booked via phone apps or directly at the airport's arrival lounge). 
