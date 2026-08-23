@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wedding Events and Information <br>
-description: "What to expect on our wedding weekend <br>"
+description: "What to expect at our wedding <br>"
 image: assets/images/flower.png
 nav-menu: true
 permalink: /events/
