@@ -29,7 +29,7 @@ Note that the schedule is tentative and subject to change. Do follow the thread 
 
 <b> Date and Time </b>: 10th December, 12:00pm - 3:00pm <br>
 <b> Description </b>: Although the Check-In time is 2:00pm, there is a possibiliy for lunch at the resort starting from 12:00pm.  <br>
-<b> Dress code </b>: Airport clothes 😉 
+<b> Dress code </b>: Travel clothes 😉 
 
 ## Haldi/Mangala Snanam
 
@@ -66,9 +66,76 @@ Note that the schedule is tentative and subject to change. Do follow the thread 
 
 <b> Date and Time </b>: 12th December, 7:30am - 11:00am <br>
 <b> Description </b>: Breakfast will be served starting from 7:30am and latest Check-Out at 11:00am.  <br>
-<b> Dress code </b>: Airport clothes 😉 
+<b> Dress code </b>: Travel clothes 😉 
 
 ## Gifts
 
 Your presence is the greatest gift we could ask for! But if you would like to help us begin our new life together with a gift, we would be truly grateful for a contribution towards our future together.
 
+
+
+
+# Information auf Deutsch
+
+## Die Zweitages-Hochzeit
+
+Wir freuen uns sehr auf eure Teilnahme an unserer Hochzeit. Die Hochzeitsfeier wird an den folgenden Tagen stattfinden.
+1. Donnerstag, 10. Dezember, 2026 - ab 15:00
+2. Freitag, 11. Dezember, 2026 - ab 7:30
+
+Unsere Hochzeit wird im <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a> stattfinden und es ist vom 10. bis zum 12. Dezember um 11:00 Uhr für euch reserviert.
+
+## Hochzeitsfeier
+
+Um unsere Wurzeln, unser Erbe und unsere Traditionen zu ehren, wird die Hochzeit eine Mischung aus indischem (insbesondere tamilien) und europäischem Stil zeigen! Freut euch auf eine fröhliche, farbenfrohe und lebendige Hochzeit voller reicher Bräuche und wunderbarer Musik. Sie erstreckt sich über uralte vedische Rituale und stellt lebendige Familientraditionen, Gemeinschaft und euren Segen in den Mittelpunkt. Im Folgenden findet ihr den Ablaufplan, kurze Beschreibungen und den Dresscode.
+
+Zum Dresscode: Wir würden uns riesig freuen, euch in indischer Kleidung zu sehen, aber das ist absolut keine Pflicht! Zieht bitte so an wie ihr euch wohl fühlt. Wir möchten einfach, dass ihr mit uns feiert! Solltet ihr indische Kleidung tragen wollen, geben wir euch hier ein paar Anregungen. Wir empfehlen euch außerdem in Indien preisgünstig einzukaufen. Wenn ihr eine ausführliche Beratung wollt, meldet euch gerne bei uns!
+
+Bitte beachtet, dass der Ablaufplan vorläufig ist und sich noch ändern kann. Schaut kurz vor der Hochzeit nochmal vorbei für den finalen Ablauf.
+
+
+## Anreise
+<b>Datum und Uhrzeit</b>: 10. Dezember, 12:00 – 15:00 Uhr <br>
+<b>Beschreibung</b>: Der Check-In beginnt zwar erst um 14:00 Uhr, es besteht jedoch die Möglichkeit, bereits ab 12:00 Uhr im Resort zu Mittag zu essen. <br>
+<b>Dresscode</b>: Reisekleidung 😉
+
+
+## Haldi/Mangala Snanam
+
+<b>Datum und Uhrzeit</b>: 10. Dezember, 15:00 – 16:30 Uhr <br>
+<b>Beschreibung</b>: Als Reinigungsritual für Braut und Bräutigam wird ihnen von ihren engsten Angehörigen Kurkumapaste auf die Haut aufgetragen. Der schützenden Wirkung von Kurkuma wird nachgesagt, negative Energien von Braut und Bräutigam fernzuhalten, bevor sie den Bund fürs Leben schließen. <br>
+<b>Dresscode</b>: Helle und pastellfarbene Töne oder Blumenmuster (denkt an Gelb, Rosa und ähnliche Farben). Achtung: Es könnte Farbe und Wasser auf eure Kleidung geraten, kleidet euch also entsprechend!
+
+## Pelli Koothuru & Pelli Koduku
+
+<b>Datum und Uhrzeit</b>: 10. Dezember, 18:00 – 18:30 Uhr <br>
+<b>Beschreibung</b>: Braut und Bräutigam werden mit Gebeten und Segenswünschen offiziell willkommen geheißen. <br>
+<b>Dresscode</b>: Festliche Kleidung (Herren: Kurtas, Sherwanis. Damen: Lehengas, Saris, Röcke, Salwar Kameez, indische Anzüge etc.)
+
+## Mehendi
+
+<b>Datum und Uhrzeit</b>: 10. Dezember, ab 18:30 Uhr <br>
+<b>Beschreibung</b>: Eine ungezwungene Veranstaltung mit Musik und Unterhaltung, bei der die Gäste einander kennenlernen können. Die Gäste sind außerdem herzlich eingeladen, sich Mehendi (temporäre Henna-Tattoos) auf die Hände auftragen zu lassen – ein traditioneller Brauch bei indischen Hochzeiten. <br>
+<b>Dresscode</b>: Festliche Kleidung (Herren: Kurtas, Sherwanis. Damen: Lehengas, Saris, Röcke, Salwar Kameez, indische Anzüge etc.)
+
+## Kalyanam – Die Hochzeitszeremonie
+
+<b>Datum und Uhrzeit</b>: 11. Dezember, 7:30 – 12:30 Uhr <br>
+<b>Beschreibung</b>: Dies ist die Hauptzeremonie der Hochzeit nach tamilien Hochzeitsritualen. <br>
+<b>Dresscode</b>: Festliche Kleidung (Herren: Kurtas, Dhotis, westliche Anzüge. Damen: südindische Kleidung, einschließlich Saris)
+
+## After Party – Die europäische Feier
+
+<b>Datum und Uhrzeit</b>: 11. Dezember, ab 18:30 Uhr <br>
+<b>Beschreibung</b>: Eine lockere, westlich geprägte Feier mit Essen, Musik und Tanz! <br>
+<b>Dresscode</b>: Cocktailkleidung (westlich oder indisch)
+
+## Abreise
+
+<b>Datum und Uhrzeit</b>: 12. Dezember, 7:30 – 11:00 Uhr <br>
+<b>Beschreibung</b>: Das Frühstück wird ab 7:30 Uhr serviert und der späteste Check-Out ist um 11:00 Uhr. <br>
+<b>Dresscode</b>: Reisekleidung 😉
+
+## Geschenke
+
+Eure Anwesenheit ist das größte Geschenk, das wir uns wünschen können! Solltet ihr uns jedoch dennoch beim Start in unser gemeinsames neues Leben mit einem Geschenk unterstützen wollen, würden wir uns von Herzen über einen Beitrag zu unserer gemeinsamen Zukunft freuen.
