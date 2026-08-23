@@ -6,6 +6,7 @@ image: assets/images/flowers_illustration.jpg
 nav-menu: true
 permalink: /events/
 show-tile: true
+order: 3
 ---
 
 ## Wedding Weekend
@@ -14,7 +15,7 @@ We are so excited to share our wedding weekend with you. The wedding celebration
 1. Thursday, 10th December, 2026 - 3:00pm onwards
 2. Friday, 11th December, 2026 - 7:30am onwards
 
-The wedding festivities will take place in <a href="https://browntownresort.com/"target="_blank">Brown Town Resort, Spa &amp; Convention</a>, and note that your stay is reserved for you from 10th December, 2:00pm until 12th December, 11:00am.  
+The wedding festivities will take place in <a href="https://browntownresort.com/" target="_blank">Brown Town Resort, Spa &amp; Convention</a>, and note that your stay is reserved for you from 10th December, 2:00pm until 12th December, 11:00am.  
 
 ## Wedding Celebrations
 
@@ -27,25 +28,26 @@ Note that the schedule is tentative and subject to change. Do follow the thread 
 ### Haldi/Mangala Snanam
 
 <b> Date and Time </b>: 10th December, 3:00pm - 4:30pm <br>
-<b> Description </b>: As a cleansing ritual for the bride and groom, turmeric paste is applied to their skin by their close ones. The protective properties of turmeric is said to ward off any negative energy from the bride and groom before they tie the knot.  
+<b> Description </b>: As a cleansing ritual for the bride and groom, turmeric paste is applied to their skin by their close ones. The protective properties of turmeric is said to ward off any negative energy from the bride and groom before they tie the knot.  <br>
 <b> Dress code </b>: light and pastel colors or floral themes (think yellow, pink and their friends). Warning: your may get color and water on your clothes, so dress accordingly!
 
 ## Pelli koothuru + Mehendi
 
 <b> Date and Time </b>: 10th December, 6:00pm onwards <br>
-<b> Description </b>: The bride and the groom are official welcomed with some prayers and blessings. An informal event with music and entertainment will follow for the guests to get to know each other. The guests are also welcome to apply mehendi (temporary henna tattoo) on their hands, a practice traditionally followed in Indian weddings. 
-<b> Dress code </b>: Festive attire (Men: kurtas, sherwanis. Women: lehengas, skirts, salwar kameez and Indian suits) 
+<b> Description </b>: The bride and the groom are official welcomed with some prayers and blessings. An informal event with music and entertainment will follow for the guests to get to know each other. 
+ The guests are also welcome to apply mehendi (temporary henna tattoo) on their hands, a practice traditionally followed in Indian weddings. <br>
+<b> Dress code </b>: Festive attire (Men: kurtas, sherwanis. Women: lehengas, skirts, salwar kameez, Indian suits, etc.) 
 
 ## Kalyanam - The Wedding Ceremony
 
 <b> Date and Time </b>: 11th December, 7:30am - 12:30pm <br>
-<b> Description </b>: This is the main wedding ceremony for the bride and the groom with Tamil-style wedding rituals.
+<b> Description </b>: This is the main wedding ceremony for the bride and the groom with Tamil-style wedding rituals. <br>
 <b> Dress code </b>: Festive attire (Men: kurtas, dhotis, western pant suits. Women: south Indian clothing including sarees)
 
 ## After Party - The European Celebration
 
-<b> Date and Time </b>: 11th December, 6:30pm onwards
-<b> Description </b>: A casual western style celebration with food, music and dancing!
+<b> Date and Time </b>: 11th December, 6:30pm onwards <br>
+<b> Description </b>: A casual western style celebration with food, music and dancing! <br>
 <b> Dress code </b>: Cocktail attire (western or Indian)
 
 

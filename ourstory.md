@@ -6,6 +6,7 @@ image: assets/images/collage.png
 nav-menu: true
 permalink: /our-story/
 show-tile: true
+order: 1
 ---
 
 Our story began in August 2023 in a restaurant close to the university where we both worked. A cultural potpourri ensued, as an Indian and German sat together, speaking in English and enjoying Greek food. A casual dinner and a beautiful conversation later, sparks flew and we both knew — this was something special! 

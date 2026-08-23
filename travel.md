@@ -6,6 +6,7 @@ image: assets/images/hyderabad.jpg
 nav-menu: true
 permalink: /travel/
 show-tile: true
+order: 2
 ---
 
 ## Venue -- Hyderabad, India

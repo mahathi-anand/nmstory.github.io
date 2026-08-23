@@ -6,6 +6,7 @@ image: assets/images/rsvp.png
 nav-menu: true
 permalink: /rsvp/
 show-tile: true
+order: 4
 ---
 
 <style>
