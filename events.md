@@ -9,9 +9,9 @@ show-tile: true
 order: 3
 ---
 
-## Wedding Weekend
+## The Two Day Wedding
 
-We are so excited to share our wedding weekend with you. The wedding celebrations will take place on the following days:
+We are so excited to share our wedding with you. The wedding celebrations will take place on the following days:
 1. Thursday, 10th December, 2026 - 3:00pm onwards
 2. Friday, 11th December, 2026 - 7:30am onwards
 
@@ -25,18 +25,30 @@ On the dress code: While we would absolutely be thrilled to see you in Indian at
 
 Note that the schedule is tentative and subject to change. Do follow the thread shortly before the wedding for the final schedule. 
 
-### Haldi/Mangala Snanam
+## Arrival
+
+<b> Date and Time </b>: 10th December, 12:00pm - 3:00pm <br>
+<b> Description </b>: Although the Check-In time is 2:00pm, there is a possibiliy for lunch at the resort starting from 12:00pm.  <br>
+<b> Dress code </b>: Airport clothes 😉 
+
+## Haldi/Mangala Snanam
 
 <b> Date and Time </b>: 10th December, 3:00pm - 4:30pm <br>
 <b> Description </b>: As a cleansing ritual for the bride and groom, turmeric paste is applied to their skin by their close ones. The protective properties of turmeric is said to ward off any negative energy from the bride and groom before they tie the knot.  <br>
-<b> Dress code </b>: light and pastel colors or floral themes (think yellow, pink and their friends). Warning: your may get color and water on your clothes, so dress accordingly!
+<b> Dress code </b>: Light and pastel colors or floral themes (think yellow, pink and their friends). Warning: you may get color and water on your clothes, so dress accordingly!
 
-## Pelli koothuru + Mehendi
+## Pelli Koothuru & Pelli Koduku
 
-<b> Date and Time </b>: 10th December, 6:00pm onwards <br>
-<b> Description </b>: The bride and the groom are official welcomed with some prayers and blessings. An informal event with music and entertainment will follow for the guests to get to know each other. 
+<b> Date and Time </b>: 10th December, 6:00pm - 6:30pm <br>
+<b> Description </b>: The bride and the groom are formally welcomed with some prayers and blessings. <br>
+<b> Dress code </b>: Festive attire (Men: kurtas, sherwanis. Women: lehengas, saree, skirts, salwar kameez, Indian suits, etc.) 
+
+## Mehendi
+
+<b> Date and Time </b>: 10th December, 6:30pm onwards <br>
+<b> Description </b>: An informal event with music and entertainment for the guests to get to know each other. 
  The guests are also welcome to apply mehendi (temporary henna tattoo) on their hands, a practice traditionally followed in Indian weddings. <br>
-<b> Dress code </b>: Festive attire (Men: kurtas, sherwanis. Women: lehengas, skirts, salwar kameez, Indian suits, etc.) 
+<b> Dress code </b>: Festive attire (Men: kurtas, sherwanis. Women: lehengas, saree, skirts, salwar kameez, Indian suits, etc.) 
 
 ## Kalyanam - The Wedding Ceremony
 
@@ -50,6 +62,11 @@ Note that the schedule is tentative and subject to change. Do follow the thread 
 <b> Description </b>: A casual western style celebration with food, music and dancing! <br>
 <b> Dress code </b>: Cocktail attire (western or Indian)
 
+## Departure
+
+<b> Date and Time </b>: 12th December, 7:30am - 11:00am <br>
+<b> Description </b>: Breakfast will be served starting from 7:30am and latest Check-Out at 11:00am.  <br>
+<b> Dress code </b>: Airport clothes 😉 
 
 ## Gifts
 
